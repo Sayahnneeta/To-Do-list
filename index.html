@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-List</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <h1>TODO List</h1>
-        <form  class="todo-form">
+        <form class="todo-form">
             <input type="text" class="todo-item" placeholder="Things to be done....">
             <button type="submit" class="form-btn">Add Item</button>
         </form>
         <ul class="items">
-              <li class="item" data-key="1594003133171">
-        <input class="checkbox" type="checkbox"> 
-        Go to Gym
-        <i class="fas fa-trash-alt"></i>
-        <button class="delete-button">X</button>
-      </li> 
-           
+            <li data-id="0">Clean the garden 
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li>Practice the codes
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li>Read a book on JavaScript
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li class="checked">Organize my notes
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li>Create JavaScript projects
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li>Take quiz
+                <i class="far fa-trash-alt"></i>
+            </li>
+            <li>Comprehend interview questions
+                <i class="far fa-trash-alt"></i>
+            </li>
         </ul>
+        <button type="button" id="clear-list" onclick="removeAll()">Clear All Items</button>
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>
