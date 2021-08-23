@@ -12,6 +12,7 @@ body
     /* padding: 30px 40px; */
     color: white;
     text-align: center;
+    display: flex;
 }
 
 h1 
@@ -24,6 +25,15 @@ h1
     letter-spacing: 2px;
     font-size: 40px;
 }
+.container 
+{
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
 .todo-form
 {
     padding: 10px;
@@ -51,11 +61,26 @@ ul li:nth-child(odd)
 {
     background: #5bbde4;
 }
- i
+.far
 {   
     position: absolute; 
     right: 10%;
 }
+.checkbox
+{
+    margin-right: 10px; 
+}
+.checked 
+{
+  text-decoration: line-through;
+  background: blanchedalmond;
+  color:black;
+}   
+/* .far
+{
+    background-color: tomato;
+    color: white;
+} */
 #clear-list
 {
     margin: 20px;
@@ -70,7 +95,12 @@ ul li:nth-child(odd)
     cursor: pointer;
     border: none;
 }
-.form-btn
+button:hover
+{
+    background-color: rgb(248, 211, 45);
+    cursor: pointer;
+}
+.input-btn
 {
     margin: 10px;
     padding: 10px;
