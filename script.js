@@ -127,3 +127,9 @@ todoItemsList.addEventListener('click', function(event)
     deleteTodo(event.target.parentElement.getAttribute('data-key'));
   }
 });
+
+function deleteAll(event)
+{ 
+ var obj = todoItemsList ;
+ obj.style["display"] = "none";
+}
