@@ -1,72 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO LIST</title>
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-    body
-    {
-        background-color: #f6eb0cff;
-        background-size: cover;
-        padding: 0;
-        margin: 0;
-    }
-    .front-gif
-    {
-        width: 25%;
-        height: 25%;
-        position: relative;
-        left: 40%;
-        top: 20%;
-    }
-    .front
-    {
-        font-family: 'Pacifico', cursive;
-        color:black;
-        text-align: center;
-        font-size: 30px;
-        position: absolute;
-        top: 40%;
-        left: 33%;
-    }
-    .submit
-    {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgb(43, 225, 231);
-    color: black;
-    width: 18rem;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    position: absolute;
-    top: 55%;
-    left: 40%;
-    }
-    .link
-    {
-        text-decoration: none;
-        
-    }
-    button:hover
-    {
-        background-color: coral;
-        text-decoration: none;
-        color: black;
-        cursor: pointer;
-    }
-</style>
-<body>
-    <div class="bg">
-        <img class="front-gif" src="bg.gif" alt="" srcset="">
-        <h3 class="front">What do you want to get done today?</h3>
-        <button class="submit" ><a class="link" href="index.html">ADD YOUR FIRST TODO </a></button>
+
+<body class="front-1">
+    <div class="container">
+        <h1>TODO List</h1>
+        <form class="todo-form">
+            <input type="text" class="todo-input" placeholder="Things to be done....">
+            <button type="submit" class="input-btn">Add Item</button>
+        </form>
+        <ul class="todo-items">
+            
+        </ul>
+        <button onclick="deleteAll()" id="clear-list" > Clear All Items</button>
     </div>
 </body>
+<script src="script.js"></script>
+
 </html>

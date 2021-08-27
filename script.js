@@ -130,6 +130,6 @@ todoItemsList.addEventListener('click', function(event)
 
 function deleteAll(event)
 { 
- var obj = todoItemsList ;
- obj.style["display"] = "none";
+  localStorage.clear();
+  location.reload();
 }
