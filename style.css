@@ -6,15 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.front-1
+body
 {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%,rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.front-1
+{
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%,rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
     color: white;
     text-align: center;
     display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
+    /* height: max-content; */
+    /* width: fit-content; */
+    /* background-repeat: no-repeat; */
     /* background-size: cover; */
 }
 
@@ -55,6 +61,7 @@ h1
     font-size: 20px;
    
 }
+
 ul li:hover
 {
     cursor: pointer;
@@ -73,12 +80,14 @@ ul li:nth-child(odd)
 }
 .far
 {   
-    position: relative; 
-    left: 10%;
+    position: absolute; 
+    left: 80%;
     
 }
 .checkbox
-{
+{   
+    position: absolute;
+    right: 80%;
     margin-right: 10px; 
 }
 .checked 
