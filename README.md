@@ -6,5 +6,7 @@ A responsive TODO List with basic HTML, CSS and JS
  #### [CLICK HERE to add your todo](https://todolistsayahnneeta.netlify.app/)
 
 ### MY TODO LIST
-<img src = "ss.png" alt= "no image">
----
+<div>
+<img src="bg-1.gif" alt="" srcset="">
+</div>
+
