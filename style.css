@@ -72,8 +72,8 @@ ul li:nth-child(odd)
 }
 .far
 {   
-    position: absolute; 
-    right: 10%;
+    position: relative; 
+    left: 10%;
     
 }
 .checkbox
