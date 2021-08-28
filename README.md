@@ -7,6 +7,6 @@ A responsive TODO List with basic HTML, CSS and JS
 
 ### MY TODO LIST
 <div>
-<img src="bg-1.gif" alt="" srcset="">
+<img src="ss.png" alt="" srcset="">
 </div>
 
